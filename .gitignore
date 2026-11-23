@@ -1,0 +1,23 @@
+# Environnement Python
+venv/
+__pycache__/
+*.py[cod]
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Données et modèles générés
+*.csv
+*.joblib
+*.pkl
+
+# Fichiers de sauvegarde
+pipeline_prefect_backup.py
+
+# Notebook à vérifier avant publication
+Lab_Data_Preparation_Diabetes*.ipynb
+
+# Configuration locale
+.env
